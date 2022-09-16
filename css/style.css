@@ -1,0 +1,110 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Helvetica, 'Apple Color Emoji', Arial, sans-serif, 'Segoe UI Emoji',
+    'Segoe UI Symbol';
+}
+.os_headerBg img {
+  background-size: 100%;
+  height: 40vh;
+  object-fit: cover;
+  object-position: center 50%;
+  width: 100%;
+}
+.os_head_logo img {
+  margin-top: -7vh;
+  width: 130px;
+  height: 130px;
+}
+.os_video_sec {
+  text-align: left;
+}
+.os_video_sec h2 {
+  margin-bottom: 10px;
+  font-size: 40px;
+}
+.os_video_sec p {
+  font-size: 16px;
+}
+@media (max-width: 768px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    padding-right: 1rem !important;
+    padding-left: 1rem !important;
+  }
+}
+@media (max-width: 1400px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    padding-right: 3rem;
+    padding-left: 3rem;
+  }
+}
+@media (min-width: 1400px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: 660px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 3rem;
+    padding-left: 3rem;
+  }
+}
+.os_contact span,
+.os_contact a {
+  border-color: rgba(55, 53, 47, 0.4);
+  color: #a5a4a1;
+}
+.os_notion_sec h2 {
+  font-size: 1.8em;
+  font-weight: 500;
+}
+.os_bonus_sec h2 {
+  font-size: 1.4em;
+  font-weight: 500;
+}
+.os_bonus_sec ul {
+  list-style: none;
+  padding-left: 0;
+}
+.os_ref_sec ul,
+.os_expectations_sec ul {
+  padding-left: 20px;
+}
+.os_ref_sec a,
+.os_expectations_sec a {
+  border-color: rgba(55, 53, 47, 0.4);
+  color: #a5a4a1;
+}
+.os_ref_sec h4,
+.os_expectations_sec h4,
+.os_delivery_sec h4,
+.os_contact h4 {
+  font-size: 1.2em;
+  font-weight: 500;
+}
+@media (max-width: 767px) {
+  .os_video_sec iframe {
+    width: 100%;
+    height: 380px;
+  }
+  .os_video_sec h2 {
+    font-size: 24px;
+  }
+  .os_headerBg img {
+    object-position: right;
+  }
+}
